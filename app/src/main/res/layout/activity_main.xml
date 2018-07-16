@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/githubimage"
+        android:layout_width="match_parent"
+        android:layout_height="207dp"
+        android:layout_weight="1"
+        app:srcCompat="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/githubname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        android:text="@string/name"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/githubbio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        android:text="@string/bio"
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:id="@+id/UserET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:inputType=""
+        android:text="@string/enter_your_user_name"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Gobtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:text="@string/go"
+        android:textSize="20sp" />
+</LinearLayout>

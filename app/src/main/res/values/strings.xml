@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WebServicess</string>
+    <string name="name">Name</string>
+    <string name="bio">Bio</string>
+    <string name="enter_your_user_name">Enter Your User Name</string>
+    <string name="go">Go</string>
+</resources>
